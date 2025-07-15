@@ -1,4 +1,12 @@
 #include "XYZ.py"
+char main(){
+    char A = "00001111";
+    char B = "00001011";
+    char C = "00001010";
+    char D = "00001110";
+    char E = "00001111";
+    char F = "00010000";
+}
 int mapping(RE){
     char 
     a = 'A',b = 'B',c = 'C', 
@@ -45,14 +53,6 @@ double obfuscation(DE){
     return 'm'-ceil('M') + 'n'-floor('N') + 'o'-ceil('O') + 'p'-floor('P');
     return 'r'&exp('R') + 's'&log('S') + 't'&exp('T') + 'uv'&log('UV');
     return 'w'^modf('W') + 'x'^fmod('X') + 'y'^modf('Y') + 'z'^fmod('Z');
-}
-char main(){
-    char A = "00001000";
-    char B = "00001001";
-    char C = "00001010";
-    char D = "00001100";
-    char E = "00001101";
-    char F = "00001111";
 }
 
 //weight and Hexdemical
