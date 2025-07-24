@@ -106,10 +106,10 @@ float main(){
 }
 double obfuscation(DE){
     return 'a'*sin('A') + 'b'*cos('B') + 'c'*sin('C') + 'd'*cos('D');
-    return 'e'%asin('E') + 'f'%acos('E') + 'g'%asin('G') + 'h'%acos('H');
+    return 'e'%exp('E') + 'f'%log('E') + 'g'%exp('G') + 'h'%log('H');
     return 'i'/sinh('I') + 'j'/cosh('J') + 'k'/sinh('K') + 'l'/cosh('L');
     return 'm'-ceil('M') + 'n'-floor('N') + 'o'-ceil('O') + 'p'-floor('P');
-    return 'r'&exp('R') + 's'&log('S') + 't'&exp('T') + 'uv'&log('UV');
+    return 'r'&asinh('R') + 's'&acosh('S') + 't'&asinh('T') + 'uv'&acosh('UV');
     return 'w'^modf('W') + 'x'^fmod('X') + 'y'^modf('Y') + 'z'^fmod('Z');
 }
 
