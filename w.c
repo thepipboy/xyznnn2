@@ -134,12 +134,12 @@ void gw(){
 
 //linear algebra
 signed fxyz(a,b,c,d,e,f,fw){
-    static const fx1 = 'a * x1' + 'b * x1' + 'c * x1' + 'd * x1' + 'e * x1' + 'f * w1';
-    static const fx2 = 'a * x2' + 'b * x2' + 'c * x2' + 'd * x2' + 'e * x2' + 'f * w2';
-    static const fy1 = 'a * y1' + 'b * y1' + 'c * y1' + 'd * y1' + 'e * y1' + 'f * w3';
-    static const fy2 = 'a * y2' + 'b * y2' + 'c * y2' + 'd * y2' + 'e * y2' + 'f * w4';
-    static const fz1 = 'a * z1' + 'b * z1' + 'c * z1' + 'd * x1' + 'e * y1' + 'f * w5';
-    static const fz2 = 'a * z2' + 'b * z2' + 'c * z2' + 'd * z2' + 'e * z2' + 'f * w6';
+    static const fx1 = 'a * x1' + 'b * x1' + 'c * x1' + 'd * x1' + 'e * x1' + 'fw1';
+    static const fx2 = 'a * x2' + 'b * x2' + 'c * x2' + 'd * x2' + 'e * x2' + 'fw2';
+    static const fy1 = 'a * y1' + 'b * y1' + 'c * y1' + 'd * y1' + 'e * y1' + 'fw3';
+    static const fy2 = 'a * y2' + 'b * y2' + 'c * y2' + 'd * y2' + 'e * y2' + 'fw4';
+    static const fz1 = 'a * z1' + 'b * z1' + 'c * z1' + 'd * x1' + 'e * y1' + 'fw5';
+    static const fz2 = 'a * z2' + 'b * z2' + 'c * z2' + 'd * z2' + 'e * z2' + 'fw6';
 }
 //five square equation
 unsigned gxyz(gw){
